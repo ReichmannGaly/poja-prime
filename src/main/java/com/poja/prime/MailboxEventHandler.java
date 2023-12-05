@@ -3,13 +3,13 @@ package com.poja.prime;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.SQSEvent;
+import com.poja.prime.endpoint.event.EventConf;
+import com.poja.prime.endpoint.event.EventConsumer;
 import java.util.List;
 import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import com.poja.prime.endpoint.event.EventConf;
-import com.poja.prime.endpoint.event.EventConsumer;
 import software.amazon.awssdk.services.sqs.SqsClient;
 
 @Slf4j

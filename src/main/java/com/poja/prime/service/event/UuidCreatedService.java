@@ -1,13 +1,13 @@
 package com.poja.prime.service.event;
 
-import java.util.function.Consumer;
-import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
 import com.poja.prime.PojaGenerated;
 import com.poja.prime.endpoint.event.gen.UuidCreated;
 import com.poja.prime.repository.DummyUuidRepository;
 import com.poja.prime.repository.model.DummyUuid;
+import java.util.function.Consumer;
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
 
 @PojaGenerated
 @Service

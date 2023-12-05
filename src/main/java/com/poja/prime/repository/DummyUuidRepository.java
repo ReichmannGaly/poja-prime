@@ -1,10 +1,10 @@
 package com.poja.prime.repository;
 
+import com.poja.prime.PojaGenerated;
+import com.poja.prime.repository.model.DummyUuid;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.poja.prime.PojaGenerated;
-import com.poja.prime.repository.model.DummyUuid;
 
 @PojaGenerated
 @Repository
