@@ -2,9 +2,9 @@ package com.poja.prime.endpoint.rest.controller;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.poja.prime.conf.FacadeIT;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.poja.prime.conf.FacadeIT;
 
 class HealthControllerIT extends FacadeIT {
 

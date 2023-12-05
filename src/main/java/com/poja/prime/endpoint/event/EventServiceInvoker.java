@@ -1,5 +1,6 @@
 package com.poja.prime.endpoint.event;
 
+import com.poja.prime.PojaGenerated;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.function.Consumer;
@@ -10,7 +11,6 @@ import org.reflections.Reflections;
 import org.reflections.scanners.Scanners;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
-import com.poja.prime.PojaGenerated;
 
 @PojaGenerated
 @AllArgsConstructor
